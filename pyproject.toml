@@ -12,7 +12,9 @@ dependencies = [
     "langchain-anthropic>=1.6.1",
     "langchain-community>=0.4.2",
     "langchain-core>=1.6.0",
+    "langchain-gigachat>=0.5.1",
     "langchain-openai>=1.6.0",
+    "python-dotenv>=1.2.3",
 ]
 
 [project.scripts]
