@@ -8,7 +8,7 @@ load_dotenv()
 default_tone = "дружелюбный"
 
 base_template = ChatPromptTemplate([
-    SystemMessagePromptTemplate.from_template_file("prompts/system.txt", input_variables=["lang"]),
+    SystemMessagePromptTemplate.from_template_file("../prompts/system.txt", input_variables=["lang"]),
     SystemMessagePromptTemplate.from_template("твой тон общения: {tone}"),
     HumanMessagePromptTemplate.from_template("Скажи '{text}' на трех языках")
 ])
